@@ -1,0 +1,25 @@
+{
+	"name": "RunEvery2Hours",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 2,
+				"startTime": "2023-12-15T02:01:00",
+				"endTime": "2023-12-17T20:01:00",
+				"timeZone": "Eastern Standard Time"
+			}
+		}
+	}
+}
