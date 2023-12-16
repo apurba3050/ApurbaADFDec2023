@@ -1,0 +1,9 @@
+{
+	"name": "ApurbaADFDec",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "18d94c46-5920-4f3e-8a20-c7949e8f2cae",
+		"tenantId": "cecfbfbf-2ca9-44e9-baa9-45bca1a5fcb1"
+	}
+}
